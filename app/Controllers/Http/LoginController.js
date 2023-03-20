@@ -14,7 +14,6 @@ class LoginController {
         let user = await LoginMod.auth(username, md5(password))
 
         let user_id, fullname
-        console.log(user)
 
         if(user == '') {
             throw new CustomException({ message: "Username or Password is incorrect. Please try again." })

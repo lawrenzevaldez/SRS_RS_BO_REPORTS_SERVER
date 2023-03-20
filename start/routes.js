@@ -23,4 +23,10 @@ Route.get('/', () => {
 Route.group(() => {
     Route.post('/auth', 'LoginController.auth')
     Route.get('/logout', 'LoginController.logout')
+
+    Route.get('/get_branches', 'RsBoController.getBranches')
+    Route.get('/get_branch_details', 'RsBoController.getBranchDetails')
+    Route.get('/get_branch_details_date', 'RsBoController.getBranchDetailsByDate')
+    Route.get('/get_movement_details', 'RsBoController.getMovementDetails')
+    Route.post('/export_movement_details', 'RsBoController.exportMovementDetails')
 }).prefix('api')
