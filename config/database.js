@@ -93,6 +93,17 @@ module.exports = {
     }
   },
 
+  srsagora_mysql_aria: {
+    client: 'mysql',
+    connection: {
+      host: Env.get('SRSAGORA_MYSQL_HOST_ARIA', 'localhost'),
+      port: Env.get('SRSAGORA_MYSQL_PORT_ARIA', ''),
+      user: Env.get('SRSAGORA_MYSQL_USER_ARIA', 'root'),
+      password: Env.get('SRSAGORA_MYSQL_PASSWORD_ARIA', ''),
+      database: Env.get('SRSAGORA_MYSQL_DATABASE_ARIA', 'adonis')
+    }
+  },
+
   srsagora_mssql: {
     client: 'mssql',
     connection: {
@@ -112,6 +123,17 @@ module.exports = {
       user: Env.get('SRSAL_MYSQL_USER', 'root'),
       password: Env.get('SRSAL_MYSQL_PASSWORD', ''),
       database: Env.get('SRSAL_MYSQL_DATABASE', 'adonis')
+    }
+  },
+
+  srsal_mysql_aria: {
+    client: 'mysql',
+    connection: {
+      host: Env.get('SRSAL_MYSQL_HOST_ARIA', 'localhost'),
+      port: Env.get('SRSAL_MYSQL_PORT_ARIA', ''),
+      user: Env.get('SRSAL_MYSQL_USER_ARIA', 'root'),
+      password: Env.get('SRSAL_MYSQL_PASSWORD_ARIA', ''),
+      database: Env.get('SRSAL_MYSQL_DATABASE_ARIA', 'adonis')
     }
   },
 
@@ -137,6 +159,17 @@ module.exports = {
     }
   },
 
+  srsbsl_mysql_aria: {
+    client: 'mysql',
+    connection: {
+      host: Env.get('SRSBSL_MYSQL_HOST_ARIA', 'localhost'),
+      port: Env.get('SRSBSL_MYSQL_PORT_ARIA', ''),
+      user: Env.get('SRSBSL_MYSQL_USER_ARIA', 'root'),
+      password: Env.get('SRSBSL_MYSQL_PASSWORD_ARIA', ''),
+      database: Env.get('SRSBSL_MYSQL_DATABASE_ARIA', 'adonis')
+    }
+  },
+
   srsbsl_mssql: {
     client: 'mssql',
     connection: {
@@ -156,6 +189,17 @@ module.exports = {
       user: Env.get('SRSBSL2_MYSQL_USER', 'root'),
       password: Env.get('SRSBSL2_MYSQL_PASSWORD', ''),
       database: Env.get('SRSBSL2_MYSQL_DATABASE', 'adonis')
+    }
+  },
+
+  srsbsl2_mysql_aria: {
+    client: 'mysql',
+    connection: {
+      host: Env.get('SRSBSL2_MYSQL_HOST_ARIA', 'localhost'),
+      port: Env.get('SRSBSL2_MYSQL_PORT_ARIA', ''),
+      user: Env.get('SRSBSL2_MYSQL_USER_ARIA', 'root'),
+      password: Env.get('SRSBSL2_MYSQL_PASSWORD_ARIA', ''),
+      database: Env.get('SRSBSL2_MYSQL_DATABASE_ARIA', 'adonis')
     }
   },
 
@@ -181,6 +225,17 @@ module.exports = {
     }
   },
 
+  srsbgb_mysql_aria: {
+    client: 'mysql',
+    connection: {
+      host: Env.get('SRSBGB_MYSQL_HOST_ARIA', 'localhost'),
+      port: Env.get('SRSBGB_MYSQL_PORT_ARIA', ''),
+      user: Env.get('SRSBGB_MYSQL_USER_ARIA', 'root'),
+      password: Env.get('SRSBGB_MYSQL_PASSWORD_ARIA', ''),
+      database: Env.get('SRSBGB_MYSQL_DATABASE_ARIA', 'adonis')
+    }
+  },
+
   srsbgb_mssql: {
     client: 'mssql',
     connection: {
@@ -200,6 +255,17 @@ module.exports = {
       user: Env.get('SRSBRIXTON_MYSQL_USER', 'root'),
       password: Env.get('SRSBRIXTON_MYSQL_PASSWORD', ''),
       database: Env.get('SRSBRIXTON_MYSQL_DATABASE', 'adonis')
+    }
+  },
+
+  srsbrixton_mysql_aria: {
+    client: 'mysql',
+    connection: {
+      host: Env.get('SRSBRIXTON_MYSQL_HOST_ARIA', 'localhost'),
+      port: Env.get('SRSBRIXTON_MYSQL_PORT_ARIA', ''),
+      user: Env.get('SRSBRIXTON_MYSQL_USER_ARIA', 'root'),
+      password: Env.get('SRSBRIXTON_MYSQL_PASSWORD_ARIA', ''),
+      database: Env.get('SRSBRIXTON_MYSQL_DATABASE_ARIA', 'adonis')
     }
   },
 
@@ -225,6 +291,17 @@ module.exports = {
     }
   },
 
+  srscain_mysql_aria: {
+    client: 'mysql',
+    connection: {
+      host: Env.get('SRSCAIN_MYSQL_HOST_ARIA', 'localhost'),
+      port: Env.get('SRSCAIN_MYSQL_PORT_ARIA', ''),
+      user: Env.get('SRSCAIN_MYSQL_USER_ARIA', 'root'),
+      password: Env.get('SRSCAIN_MYSQL_PASSWORD_ARIA', ''),
+      database: Env.get('SRSCAIN_MYSQL_DATABASE_ARIA', 'adonis')
+    }
+  },
+
   srscain_mssql: {
     client: 'mssql',
     connection: {
@@ -244,6 +321,17 @@ module.exports = {
       user: Env.get('SRSCAIN2_MYSQL_USER', 'root'),
       password: Env.get('SRSCAIN2_MYSQL_PASSWORD', ''),
       database: Env.get('SRSCAIN2_MYSQL_DATABASE', 'adonis')
+    }
+  },
+
+  srscain2_mysql_aria: {
+    client: 'mysql',
+    connection: {
+      host: Env.get('SRSCAIN2_MYSQL_HOST_ARIA', 'localhost'),
+      port: Env.get('SRSCAIN2_MYSQL_PORT_ARIA', ''),
+      user: Env.get('SRSCAIN2_MYSQL_USER_ARIA', 'root'),
+      password: Env.get('SRSCAIN2_MYSQL_PASSWORD_ARIA', ''),
+      database: Env.get('SRSCAIN2_MYSQL_DATABASE_ARIA', 'adonis')
     }
   },
 
@@ -269,6 +357,17 @@ module.exports = {
     }
   },
 
+  srsc_mysql_aria: {
+    client: 'mysql',
+    connection: {
+      host: Env.get('SRSC_MYSQL_HOST_ARIA', 'localhost'),
+      port: Env.get('SRSC_MYSQL_PORT_ARIA', ''),
+      user: Env.get('SRSC_MYSQL_USER_ARIA', 'root'),
+      password: Env.get('SRSC_MYSQL_PASSWORD_ARIA', ''),
+      database: Env.get('SRSC_MYSQL_DATABASE_ARIA', 'adonis')
+    }
+  },
+
   srsc_mssql: {
     client: 'mssql',
     connection: {
@@ -288,6 +387,17 @@ module.exports = {
       user: Env.get('SRSCOM_MYSQL_USER', 'root'),
       password: Env.get('SRSCOM_MYSQL_PASSWORD', ''),
       database: Env.get('SRSCOM_MYSQL_DATABASE', 'adonis')
+    }
+  },
+
+  srscom_mysql_aria: {
+    client: 'mysql',
+    connection: {
+      host: Env.get('SRSCOM_MYSQL_HOST_ARIA', 'localhost'),
+      port: Env.get('SRSCOM_MYSQL_PORT_ARIA', ''),
+      user: Env.get('SRSCOM_MYSQL_USER_ARIA', 'root'),
+      password: Env.get('SRSCOM_MYSQL_PASSWORD_ARIA', ''),
+      database: Env.get('SRSCOM_MYSQL_DATABASE_ARIA', 'adonis')
     }
   },
 
@@ -313,6 +423,17 @@ module.exports = {
     }
   },
 
+  srsant2_mysql_aria: {
+    client: 'mysql',
+    connection: {
+      host: Env.get('SRSANT2_MYSQL_HOST_ARIA', 'localhost'),
+      port: Env.get('SRSANT2_MYSQL_PORT_ARIA', ''),
+      user: Env.get('SRSANT2_MYSQL_USER_ARIA', 'root'),
+      password: Env.get('SRSANT2_MYSQL_PASSWORD_ARIA', ''),
+      database: Env.get('SRSANT2_MYSQL_DATABASE_ARIA', 'adonis')
+    }
+  },
+
   srsant2_mssql: {
     client: 'mssql',
     connection: {
@@ -332,6 +453,17 @@ module.exports = {
       user: Env.get('SRSG_MYSQL_USER', 'root'),
       password: Env.get('SRSG_MYSQL_PASSWORD', ''),
       database: Env.get('SRSG_MYSQL_DATABASE', 'adonis')
+    }
+  },
+
+  srsg_mysql_aria: {
+    client: 'mysql',
+    connection: {
+      host: Env.get('SRSG_MYSQL_HOST_ARIA', 'localhost'),
+      port: Env.get('SRSG_MYSQL_PORT_ARIA', ''),
+      user: Env.get('SRSG_MYSQL_USER_ARIA', 'root'),
+      password: Env.get('SRSG_MYSQL_PASSWORD_ARIA', ''),
+      database: Env.get('SRSG_MYSQL_DATABASE_ARIA', 'adonis')
     }
   },
 
@@ -357,6 +489,17 @@ module.exports = {
     }
   },
 
+  srsant1_mysql_aria: {
+    client: 'mysql',
+    connection: {
+      host: Env.get('SRSANT1_MYSQL_HOST_ARIA', 'localhost'),
+      port: Env.get('SRSANT1_MYSQL_PORT_ARIA', ''),
+      user: Env.get('SRSANT1_MYSQL_USER_ARIA', 'root'),
+      password: Env.get('SRSANT1_MYSQL_PASSWORD_ARIA', ''),
+      database: Env.get('SRSANT1_MYSQL_DATABASE_ARIA', 'adonis')
+    }
+  },
+
   srsant1_mssql: {
     client: 'mssql',
     connection: {
@@ -376,6 +519,17 @@ module.exports = {
       user: Env.get('SRSGV_MYSQL_USER', 'root'),
       password: Env.get('SRSGV_MYSQL_PASSWORD', ''),
       database: Env.get('SRSGV_MYSQL_DATABASE', 'adonis')
+    }
+  },
+
+  srsgv_mysql_aria: {
+    client: 'mysql',
+    connection: {
+      host: Env.get('SRSGV_MYSQL_HOST_ARIA', 'localhost'),
+      port: Env.get('SRSGV_MYSQL_PORT_ARIA', ''),
+      user: Env.get('SRSGV_MYSQL_USER_ARIA', 'root'),
+      password: Env.get('SRSGV_MYSQL_PASSWORD_ARIA', ''),
+      database: Env.get('SRSGV_MYSQL_DATABASE_ARIA', 'adonis')
     }
   },
 
@@ -401,6 +555,17 @@ module.exports = {
     }
   },
 
+  sri_mysql_aria: {
+    client: 'mysql',
+    connection: {
+      host: Env.get('SRI_MYSQL_HOST_ARIA', 'localhost'),
+      port: Env.get('SRI_MYSQL_PORT_ARIA', ''),
+      user: Env.get('SRI_MYSQL_USER_ARIA', 'root'),
+      password: Env.get('SRI_MYSQL_PASSWORD_ARIA', ''),
+      database: Env.get('SRI_MYSQL_DATABASE_ARIA', 'adonis')
+    }
+  },
+
   sri_mssql: {
     client: 'mssql',
     connection: {
@@ -420,6 +585,17 @@ module.exports = {
       user: Env.get('SRSTU_MYSQL_USER', 'root'),
       password: Env.get('SRSTU_MYSQL_PASSWORD', ''),
       database: Env.get('SRSTU_MYSQL_DATABASE', 'adonis')
+    }
+  },
+
+  srstu_mysql_aria: {
+    client: 'mysql',
+    connection: {
+      host: Env.get('SRSTU_MYSQL_HOST_ARIA', 'localhost'),
+      port: Env.get('SRSTU_MYSQL_PORT_ARIA', ''),
+      user: Env.get('SRSTU_MYSQL_USER_ARIA', 'root'),
+      password: Env.get('SRSTU_MYSQL_PASSWORD_ARIA', ''),
+      database: Env.get('SRSTU_MYSQL_DATABASE_ARIA', 'adonis')
     }
   },
 
@@ -445,6 +621,17 @@ module.exports = {
     }
   },
 
+  srsm_mysql_aria: {
+    client: 'mysql',
+    connection: {
+      host: Env.get('SRSM_MYSQL_HOST_ARIA', 'localhost'),
+      port: Env.get('SRSM_MYSQL_PORT_ARIA', ''),
+      user: Env.get('SRSM_MYSQL_USER_ARIA', 'root'),
+      password: Env.get('SRSM_MYSQL_PASSWORD_ARIA', ''),
+      database: Env.get('SRSM_MYSQL_DATABASE_ARIA', 'adonis')
+    }
+  },
+
   srsm_mssql: {
     client: 'mssql',
     connection: {
@@ -464,6 +651,17 @@ module.exports = {
       user: Env.get('SRSMAN_MYSQL_USER', 'root'),
       password: Env.get('SRSMAN_MYSQL_PASSWORD', ''),
       database: Env.get('SRSMAN_MYSQL_DATABASE', 'adonis')
+    }
+  },
+
+  srsman_mysql_aria: {
+    client: 'mysql',
+    connection: {
+      host: Env.get('SRSMAN_MYSQL_HOST_ARIA', 'localhost'),
+      port: Env.get('SRSMAN_MYSQL_PORT_ARIA', ''),
+      user: Env.get('SRSMAN_MYSQL_USER_ARIA', 'root'),
+      password: Env.get('SRSMAN_MYSQL_PASSWORD_ARIA', ''),
+      database: Env.get('SRSMAN_MYSQL_DATABASE_ARIA', 'adonis')
     }
   },
 
@@ -489,6 +687,17 @@ module.exports = {
     }
   },
 
+  srsmar_mysql_aria: {
+    client: 'mysql',
+    connection: {
+      host: Env.get('SRSMAR_MYSQL_HOST_ARIA', 'localhost'),
+      port: Env.get('SRSMAR_MYSQL_PORT_ARIA', ''),
+      user: Env.get('SRSMAR_MYSQL_USER_ARIA', 'root'),
+      password: Env.get('SRSMAR_MYSQL_PASSWORD_ARIA', ''),
+      database: Env.get('SRSMAR_MYSQL_DATABASE_ARIA', 'adonis')
+    }
+  },
+
   srsmar_mssql: {
     client: 'mssql',
     connection: {
@@ -508,6 +717,17 @@ module.exports = {
       user: Env.get('SRSMOL_MYSQL_USER', 'root'),
       password: Env.get('SRSMOL_MYSQL_PASSWORD', ''),
       database: Env.get('SRSMOL_MYSQL_DATABASE', 'adonis')
+    }
+  },
+
+  srsmol_mysql_aria: {
+    client: 'mysql',
+    connection: {
+      host: Env.get('SRSMOL_MYSQL_HOST_ARIA', 'localhost'),
+      port: Env.get('SRSMOL_MYSQL_PORT_ARIA', ''),
+      user: Env.get('SRSMOL_MYSQL_USER_ARIA', 'root'),
+      password: Env.get('SRSMOL_MYSQL_PASSWORD_ARIA', ''),
+      database: Env.get('SRSMOL_MYSQL_DATABASE_ARIA', 'adonis')
     }
   },
 
@@ -533,6 +753,17 @@ module.exports = {
     }
   },
 
+  srsmon_mysql_aria: {
+    client: 'mysql',
+    connection: {
+      host: Env.get('SRSMON_MYSQL_HOST_ARIA', 'localhost'),
+      port: Env.get('SRSMON_MYSQL_PORT_ARIA', ''),
+      user: Env.get('SRSMON_MYSQL_USER_ARIA', 'root'),
+      password: Env.get('SRSMON_MYSQL_PASSWORD_ARIA', ''),
+      database: Env.get('SRSMON_MYSQL_DATABASE_ARIA', 'adonis')
+    }
+  },
+
   srsmon_mssql: {
     client: 'mssql',
     connection: {
@@ -552,6 +783,17 @@ module.exports = {
       user: Env.get('SRSNAV_MYSQL_USER', 'root'),
       password: Env.get('SRSNAV_MYSQL_PASSWORD', ''),
       database: Env.get('SRSNAV_MYSQL_DATABASE', 'adonis')
+    }
+  },
+
+  srsnav_mysql_aria: {
+    client: 'mysql',
+    connection: {
+      host: Env.get('SRSNAV_MYSQL_HOST_ARIA', 'localhost'),
+      port: Env.get('SRSNAV_MYSQL_PORT_ARIA', ''),
+      user: Env.get('SRSNAV_MYSQL_USER_ARIA', 'root'),
+      password: Env.get('SRSNAV_MYSQL_PASSWORD_ARIA', ''),
+      database: Env.get('SRSNAV_MYSQL_DATABASE_ARIA', 'adonis')
     }
   },
 
@@ -577,6 +819,17 @@ module.exports = {
     }
   },
 
+  srsn_mysql_aria: {
+    client: 'mysql',
+    connection: {
+      host: Env.get('SRSN_MYSQL_HOST_ARIA', 'localhost'),
+      port: Env.get('SRSN_MYSQL_PORT_ARIA', ''),
+      user: Env.get('SRSN_MYSQL_USER_ARIA', 'root'),
+      password: Env.get('SRSN_MYSQL_PASSWORD_ARIA', ''),
+      database: Env.get('SRSN_MYSQL_DATABASE_ARIA', 'adonis')
+    }
+  },
+
   srsn_mssql: {
     client: 'mssql',
     connection: {
@@ -596,6 +849,17 @@ module.exports = {
       user: Env.get('SRSPAT_MYSQL_USER', 'root'),
       password: Env.get('SRSPAT_MYSQL_PASSWORD', ''),
       database: Env.get('SRSPAT_MYSQL_DATABASE', 'adonis')
+    }
+  },
+
+  srspat_mysql_aria: {
+    client: 'mysql',
+    connection: {
+      host: Env.get('SRSPAT_MYSQL_HOST_ARIA', 'localhost'),
+      port: Env.get('SRSPAT_MYSQL_PORT_ARIA', ''),
+      user: Env.get('SRSPAT_MYSQL_USER_ARIA', 'root'),
+      password: Env.get('SRSPAT_MYSQL_PASSWORD_ARIA', ''),
+      database: Env.get('SRSPAT_MYSQL_DATABASE_ARIA', 'adonis')
     }
   },
 
@@ -621,6 +885,17 @@ module.exports = {
     }
   },
 
+  srspun_mysql_aria: {
+    client: 'mysql',
+    connection: {
+      host: Env.get('SRSPUN_MYSQL_HOST_ARIA', 'localhost'),
+      port: Env.get('SRSPUN_MYSQL_PORT_ARIA', ''),
+      user: Env.get('SRSPUN_MYSQL_USER_ARIA', 'root'),
+      password: Env.get('SRSPUN_MYSQL_PASSWORD_ARIA', ''),
+      database: Env.get('SRSPUN_MYSQL_DATABASE_ARIA', 'adonis')
+    }
+  },
+
   srspun_mssql: {
     client: 'mssql',
     connection: {
@@ -640,6 +915,17 @@ module.exports = {
       user: Env.get('SRSROSARIO_MYSQL_USER', 'root'),
       password: Env.get('SRSROSARIO_MYSQL_PASSWORD', ''),
       database: Env.get('SRSROSARIO_MYSQL_DATABASE', 'adonis')
+    }
+  },
+
+  srsrosario_mysql_aria: {
+    client: 'mysql',
+    connection: {
+      host: Env.get('SRSROSARIO_MYSQL_HOST_ARIA', 'localhost'),
+      port: Env.get('SRSROSARIO_MYSQL_PORT_ARIA', ''),
+      user: Env.get('SRSROSARIO_MYSQL_USER_ARIA', 'root'),
+      password: Env.get('SRSROSARIO_MYSQL_PASSWORD_ARIA', ''),
+      database: Env.get('SRSROSARIO_MYSQL_DATABASE_ARIA', 'adonis')
     }
   },
 
@@ -665,6 +951,17 @@ module.exports = {
     }
   },
 
+  srsisidro_mysql_aria: {
+    client: 'mysql',
+    connection: {
+      host: Env.get('SRSISIDRO_MYSQL_HOST_ARIA', 'localhost'),
+      port: Env.get('SRSISIDRO_MYSQL_PORT_ARIA', ''),
+      user: Env.get('SRSISIDRO_MYSQL_USER_ARIA', 'root'),
+      password: Env.get('SRSISIDRO_MYSQL_PASSWORD_ARIA', ''),
+      database: Env.get('SRSISIDRO_MYSQL_DATABASE_ARIA', 'adonis')
+    }
+  },
+
   srsisidro_mssql: {
     client: 'mssql',
     connection: {
@@ -684,6 +981,17 @@ module.exports = {
       user: Env.get('SRSSANP_MYSQL_USER', 'root'),
       password: Env.get('SRSSANP_MYSQL_PASSWORD', ''),
       database: Env.get('SRSSANP_MYSQL_DATABASE', 'adonis')
+    }
+  },
+
+  srssanp_mysql_aria: {
+    client: 'mysql',
+    connection: {
+      host: Env.get('SRSSANP_MYSQL_HOST_ARIA', 'localhost'),
+      port: Env.get('SRSSANP_MYSQL_PORT_ARIA', ''),
+      user: Env.get('SRSSANP_MYSQL_USER_ARIA', 'root'),
+      password: Env.get('SRSSANP_MYSQL_PASSWORD_ARIA', ''),
+      database: Env.get('SRSSANP_MYSQL_DATABASE_ARIA', 'adonis')
     }
   },
 
@@ -709,6 +1017,17 @@ module.exports = {
     }
   },
 
+  srspalay_mysql_aria: {
+    client: 'mysql',
+    connection: {
+      host: Env.get('SRSPALAY_MYSQL_HOST_ARIA', 'localhost'),
+      port: Env.get('SRSPALAY_MYSQL_PORT_ARIA', ''),
+      user: Env.get('SRSPALAY_MYSQL_USER_ARIA', 'root'),
+      password: Env.get('SRSPALAY_MYSQL_PASSWORD_ARIA', ''),
+      database: Env.get('SRSPALAY_MYSQL_DATABASE_ARIA', 'adonis')
+    }
+  },
+
   srspalay_mssql: {
     client: 'mssql',
     connection: {
@@ -728,6 +1047,17 @@ module.exports = {
       user: Env.get('SRSSTAMARIA_MYSQL_USER', 'root'),
       password: Env.get('SRSSTAMARIA_MYSQL_PASSWORD', ''),
       database: Env.get('SRSSTAMARIA_MYSQL_DATABASE', 'adonis')
+    }
+  },
+
+  srsstamaria_mysql_aria: {
+    client: 'mysql',
+    connection: {
+      host: Env.get('SRSSTAMARIA_MYSQL_HOST_ARIA', 'localhost'),
+      port: Env.get('SRSSTAMARIA_MYSQL_PORT_ARIA', ''),
+      user: Env.get('SRSSTAMARIA_MYSQL_USER_ARIA', 'root'),
+      password: Env.get('SRSSTAMARIA_MYSQL_PASSWORD_ARIA', ''),
+      database: Env.get('SRSSTAMARIA_MYSQL_DATABASE_ARIA', 'adonis')
     }
   },
 
@@ -753,6 +1083,17 @@ module.exports = {
     }
   },
 
+  srsstarosa_mysql_aria: {
+    client: 'mysql',
+    connection: {
+      host: Env.get('SRSSTAROSA_MYSQL_HOST_ARIA', 'localhost'),
+      port: Env.get('SRSSTAROSA_MYSQL_PORT_ARIA', ''),
+      user: Env.get('SRSSTAROSA_MYSQL_USER_ARIA', 'root'),
+      password: Env.get('SRSSTAROSA_MYSQL_PASSWORD_ARIA', ''),
+      database: Env.get('SRSSTAROSA_MYSQL_DATABASE_ARIA', 'adonis')
+    }
+  },
+
   srsstarosa_mssql: {
     client: 'mssql',
     connection: {
@@ -772,6 +1113,17 @@ module.exports = {
       user: Env.get('SRSTANZA_MYSQL_USER', 'root'),
       password: Env.get('SRSTANZA_MYSQL_PASSWORD', ''),
       database: Env.get('SRSTANZA_MYSQL_DATABASE', 'adonis')
+    }
+  },
+
+  srstanza_mysql_aria: {
+    client: 'mysql',
+    connection: {
+      host: Env.get('SRSTANZA_MYSQL_HOST_ARIA', 'localhost'),
+      port: Env.get('SRSTANZA_MYSQL_PORT_ARIA', ''),
+      user: Env.get('SRSTANZA_MYSQL_USER_ARIA', 'root'),
+      password: Env.get('SRSTANZA_MYSQL_PASSWORD_ARIA', ''),
+      database: Env.get('SRSTANZA_MYSQL_DATABASE_ARIA', 'adonis')
     }
   },
 
@@ -797,6 +1149,17 @@ module.exports = {
     }
   },
 
+  srst_mysql_aria: {
+    client: 'mysql',
+    connection: {
+      host: Env.get('SRST_MYSQL_HOST_ARIA', 'localhost'),
+      port: Env.get('SRST_MYSQL_PORT_ARIA', ''),
+      user: Env.get('SRST_MYSQL_USER_ARIA', 'root'),
+      password: Env.get('SRST_MYSQL_PASSWORD_ARIA', ''),
+      database: Env.get('SRST_MYSQL_DATABASE_ARIA', 'adonis')
+    }
+  },
+
   srst_mssql: {
     client: 'mssql',
     connection: {
@@ -819,6 +1182,17 @@ module.exports = {
     }
   },
 
+  srsval_mysql_aria: {
+    client: 'mysql',
+    connection: {
+      host: Env.get('SRSVAL_MYSQL_HOST_ARIA', 'localhost'),
+      port: Env.get('SRSVAL_MYSQL_PORT_ARIA', ''),
+      user: Env.get('SRSVAL_MYSQL_USER_ARIA', 'root'),
+      password: Env.get('SRSVAL_MYSQL_PASSWORD_ARIA', ''),
+      database: Env.get('SRSVAL_MYSQL_DATABASE_ARIA', 'adonis')
+    }
+  },
+
   srsval_mssql: {
     client: 'mssql',
     connection: {
@@ -827,6 +1201,39 @@ module.exports = {
       user: Env.get('SRSVAL_MSSQL_USER', 'root'),
       password: Env.get('SRSVAL_MSSQL_PASSWORD', ''),
       database: Env.get('SRSVAL_MSSQL_DATABASE', 'adonis')
+    }
+  },
+
+  srsho_mysql: {
+    client: 'mysql',
+    connection: {
+      host: Env.get('SRSHO_MYSQL_HOST', 'localhost'),
+      port: Env.get('SRSHO_MYSQL_PORT', ''),
+      user: Env.get('SRSHO_MYSQL_USER', 'root'),
+      password: Env.get('SRSHO_MYSQL_PASSWORD', ''),
+      database: Env.get('SRSHO_MYSQL_DATABASE', 'adonis')
+    }
+  },
+
+  srsho_mysql_aria: {
+    client: 'mysql',
+    connection: {
+      host: Env.get('SRSHO_MYSQL_HOST_ARIA', 'localhost'),
+      port: Env.get('SRSHO_MYSQL_PORT_ARIA', ''),
+      user: Env.get('SRSHO_MYSQL_USER_ARIA', 'root'),
+      password: Env.get('SRSHO_MYSQL_PASSWORD_ARIA', ''),
+      database: Env.get('SRSHO_MYSQL_DATABASE_ARIA', 'adonis')
+    }
+  },
+
+  srsho_mssql: {
+    client: 'mssql',
+    connection: {
+      host: Env.get('SRSHO_MSSQL_HOST', 'localhost'),
+      port: Env.get('SRSHO_MSSQL_PORT', ''),
+      user: Env.get('SRSHO_MSSQL_USER', 'root'),
+      password: Env.get('SRSHO_MSSQL_PASSWORD', ''),
+      database: Env.get('SRSHO_MSSQL_DATABASE', 'adonis')
     }
   },
 

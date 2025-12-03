@@ -7,7 +7,7 @@ const Db = use('Database')
 class Login extends Model {
 
     async auth(username, password) {
-        let row = await Db.connection('mysql_217')
+        let row = await Db.connection('srsn_mysql')
                           .select('user_name', 'first_name', 'last_name', 'emp_number')
                           .from('hs_hr_users')
                           .where('user_name', username)

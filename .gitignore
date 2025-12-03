@@ -16,4 +16,6 @@ database/*.sqlite
 .idea
 
 # Addtl folders
-public
+public/attachments
+public/images
+public/files
